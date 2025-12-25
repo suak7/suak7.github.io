@@ -9,7 +9,7 @@ body
 {
     background-color: #fff;
     color: #000;
-    font-family: "Times New Roman", Times, serif;
+    font-family: "Noto Serif JP", serif;
     line-height: 1.6;
     font-size: 18px;
     padding: 40px 20px;
@@ -28,7 +28,7 @@ header
 
 .logo 
 {
-    font-size: 2rem;
+    font-size: 2.2rem;
     font-weight: bold;
     text-transform: uppercase;
     margin-bottom: 15px;
@@ -46,7 +46,7 @@ header
     color: #000;
     text-decoration: none;
     margin: 0 5px;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 .top-nav a:hover 
@@ -83,6 +83,15 @@ hr
     border-top: 1px solid #000;
 }
 
+#projects ul 
+{
+    padding-left: 20px;
+}
+
+#blog ul{
+    padding-left: 20px;
+}
+
 footer 
 {
     margin-top: -10px;
@@ -91,9 +100,4 @@ footer
     text-align: center;
     border-top: 1px solid #000;
     padding-top: 20px;
-}
-
-#projects ul 
-{
-    padding-left: 20px;
 }

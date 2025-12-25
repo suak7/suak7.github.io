@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sumeyya Aktas</title>
     <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=arrow_forward" />
 </head>
 <body>
 
@@ -39,8 +45,8 @@
             <section id="projects">
                 <h2>Projects</h2>
                 <ul>
-                    <li><a href="https://github.com/suak7/Artorias">Custom 32-bit x86 Bootloader with EHCI (USB 2.0) Driver Support</a>: I developed a custom 32-bit x86 bootloader and a freestanding C kernel. A core feature of this project was the implementation of an EHCI driver, which enabled bare-metal USB 2.0 device enumeration through control transfer protocols and UTF-16 string descriptor parsing.</li>
-                    <li><a href="https://github.com/suak7/Radagon">Custom 64-bit x86 Bootloader with AHCI (SATA) Storage Driver Support</a>: This project involved engineering a bare-metal 64-bit x86 bootloader specifically designed to support an AHCI (SATA) storage driver for direct disk access. I wrote a DMA-based command execution system utilizing AHCI command lists and Physical Region Descriptor Tables (PRDTs) while adhering to strict physical memory alignment constraints.</li>
+                    <li><a href="https://github.com/suak7/Artorias" target="_blank">Custom 32-bit x86 Bootloader with EHCI (USB 2.0) Driver Support</a>: I built a 32-bit x86 bootloader and freestanding kernel that provides VGA output, serial debugging, PCI enumeration, and MMIO as a platform for low-level driver development. I also implemented a USB 2.0 EHCI driver to enumerate devices via control transfers and descriptor parsing.</li>
+                    <li><a href="https://github.com/suak7/Radagon" target="_blank">Custom 64-bit x86 Bootloader with AHCI (SATA) Storage Driver Support</a>: I implemented a bare-metal AHCI (SATA) storage driver in C, enabling direct disk access through PCI discovery and MMIO. The driver initializes controllers and ports, uses DMA-based command execution with aligned command structures, and performs sector-level read/write operations with serial-based debugging and error handling.</li>
                 </ul>
             </section>
 
@@ -48,15 +54,19 @@
 
             <section id="blog">
                 <h2>Blog</h2>
-                <p>You can find my blog posts on my Medium page <a href="https://medium.com/@sumeyyaaktas">@sumeyyaaktas</a>. I recently published an article titled <em><a href="https://medium.com/@sumeyyaaktas/part-1-writing-a-custom-x86-bootloader-with-ehci-support-from-scratch-43cb7a5b736d?postPublishedType=repub">"Writing a 32-bit x86 Bootloader From Scratch"</a></em>. Feel free to read or follow along the tutorial!</p>
+                <p>You can find all of my blog posts on my Medium page <a href="https://medium.com/@sumeyyaaktas" target="_blank">@sumeyyaaktas</a>.
+                <p>
+                <ul>
+                    <li>2025-12-20 <em><a href="https://medium.com/@sumeyyaaktas/part-1-writing-a-custom-x86-bootloader-with-ehci-support-from-scratch-43cb7a5b736d?postPublishedType=repub" target="_blank">"Writing a 32-bit x86 Bootloader From Scratch"</a></em></li>
+                </ul>
+                </p>
             </section>
 
             <hr>
 
             <section id="contact">
                 <h2>Contact</h2>
-                <p>LinkedIn: <a href="https://www.linkedin.com/in/sumeyya-aktas/">Connect with me!</a></p>
-                <p>GitHub: <a href="https://github.com/suak7">@suak7</a></p>
+                <p>All of my projects are public on <a href="https://github.com/suak7" target="_blank">GitHub</a>, so feel free to check them out, and connect with me on <a href="https://www.linkedin.com/in/sumeyya-aktas/" target="_blank">LinkedIn</a>.</p>
             </section>
         </main>
 
